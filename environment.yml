@@ -1,13 +1,13 @@
-name : null 
-channels :
-   - nvidia
-   - rapidsai
-   - pytorch
-   - conda-forge
-dependencies :
-  - python=3.8
+name: null 
+channels:
+  - nvidia
+  - rapidsai
+  - pytorch
+  - conda-forge
+dependencies:
+  - python=3.*
   - pytorch-lightning
-  - rapids=23.02
+  - rapids=23.08
   - tensorflow
   - jax
   - git
@@ -32,9 +32,17 @@ dependencies :
   - streamlit-folium
   - prophet
   - ignite
-  - jsonschema-with-format-nongpl 
+  - jsonschema-with-format-nongpl
   - webcolors
   - pip
   - pip :
     - torch-summary
+  - jedi-language-server
+  - pyright
+  - python-language-server
+  - r-languageserver
+  - texlab
+  - ca-certificates
+  - certifi
+  - openssl
 
