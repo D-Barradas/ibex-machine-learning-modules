@@ -5,9 +5,9 @@ channels:
   - pytorch
   - conda-forge
 dependencies:
-  - python=3.*
+  - python=3.9
   - pytorch-lightning
-  - rapids=23.08
+  - rapids=23.10
   - tensorflow
   - jax
   - git
@@ -33,10 +33,6 @@ dependencies:
   - prophet
   - ignite
   - jsonschema-with-format-nongpl
-  - webcolors
-  - pip
-  - pip :
-    - torch-summary
   - jedi-language-server
   - pyright
   - python-language-server
@@ -45,4 +41,19 @@ dependencies:
   - ca-certificates
   - certifi
   - openssl
+  - webcolors
+  - seaborn
+  - dask-kubernetes
+  - skorch
+  - tune-sklearn
+  - ipykernel
+  - dask-ml
+  - kubernetes
+  - google-cloud-sdk
+  - gcsfs
+  - optuna
+  - pip
+  - pip :
+    - torch-summary
+    - jupyter_ai
 
