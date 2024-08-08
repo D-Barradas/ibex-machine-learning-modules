@@ -37,6 +37,5 @@ dependencies:
   - texlab
   - webcolors
   - r-languageserver
-  - python-language-server
   - jedi-language-server
   - jsonschema-with-format-nongpl
